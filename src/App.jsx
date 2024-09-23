@@ -51,6 +51,7 @@ function App() {
                     >
                       Edit
                     </button>
+                    <Delete index={index} />
                   </>
                 ) : (
                   <Edit
@@ -59,7 +60,6 @@ function App() {
                     value={item.title}
                   />
                 )}
-                <Delete index={index} />
               </div>
             ))
           : ""}

@@ -15,14 +15,14 @@ function Edit({ setEditMode, index, value }) {
     setEditMode(false);
   };
   return (
-    <div>
+    <div className="flex flex-col sm:flex-row gap-2">
       <input
         value={editVal}
         type="text"
         className="p-2"
         onChange={(e) => setEditVal(e.target.value)}
       />
-      <button className="btn btn-accent ml-3" onClick={editTodo}>
+      <button className="btn btn-accent  ml-0 sm:ml-3" onClick={editTodo}>
         update
       </button>
     </div>
