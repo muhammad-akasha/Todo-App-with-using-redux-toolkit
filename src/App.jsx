@@ -23,7 +23,7 @@ function App() {
   };
 
   return (
-    <div className="w-[500px] p-5 mx-auto my-5 border-2 drop-shadow-md">
+    <div className="w-full sm:w-[500px] p-5 mx-auto my-5 border-2 drop-shadow-md">
       <h1 className="text-[33px] font-semibold mb-4 text-center">Todo App</h1>
       <div className="flex justify-center gap-4">
         <input
